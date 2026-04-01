@@ -1,5 +1,5 @@
 # 5G-IAB
-Research project: Topology-Constrained Causal Attention for Reliable Fault Localization in IAB-Enabled 5G/6G Networks
+Research project: Topology-Constrained Causal Attention (TCCA) for Reliable Fault Localization in IAB-Enabled 5G/6G Networks
 
 Ensuring communication Quality of Service (QoS) and system reliability in 5G/6G networks is increasingly challenging due to the scale, heterogeneity, and dynamic behavior of modern network infrastructures, particularly in Integrated Access and Backhaul (IAB) deployments. While recent advances in AI/ML have enabled data-driven fault detection, existing approaches often lack explicit modeling of IAB-specific wireless constraints and causal dependencies, leading to unreliable inference under complex fault conditions. In this project, we propose a Topology-Constrained Causal Attention (TCCA) framework for reliability-aware fault localization that explicitly incorporates dynamic wireless backhaul dependencies into the inference process. Unlike generic graph methods, our approach introduces an adaptive graph attention mechanism to learn time-varying fault propagation weights, capturing IAB-unique failure modes such as beam misalignment and half-duplex constraints. Furthermore, we design a probabilistic trust metric with uncertainty quantification to robustly rank candidate root causes against noisy telemetry.
 
